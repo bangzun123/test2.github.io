@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>陳品佑</title>
+</head>
+<body>
+  <h1>Prologue：陳品佑</h1>
+  <h2>獻給我們心中最愛的阿瘦</h2>
+  <p>此網站為介紹品佑在網上的歷程</p>
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
+<img src="images/photo.jpg" class="photo">
+
+<div class="section">
+  <img src="images/photo.jpg">
+  <div class="text">
+    <h2>我的介紹</h2>
+    <p>這是搭配圖片的文字</p>
+  </div>
+</div>
+<audio controls>
+  <source src="music/bgm.mp3" type="audio/mpeg">
+</audio>
+<audio autoplay loop>
+  <source src="music/bgm.mp3">
+</audio>
+<button onclick="playMusic()">播放音樂</button>
+
+<audio id="bgm" src="music/bgm.mp3"></audio>
+<script>
+function playMusic() {
+  document.getElementById("bgm").play();
+}
+</script>
+
